@@ -1,0 +1,102 @@
+*, *::before, *::after
+{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+ 
+ body
+{
+  background: #404040;
+  height: 2000vh;
+}
+
+p
+{
+  text-align: center;
+  color: #eeeeee;
+}
+
+img
+{
+  margin: 0 auto;
+}
+
+h2
+{
+  text-align: center;
+  color: tomato;
+}
+
+
+.container-fluid
+{
+  text-align: center;
+  color: #ffffff;
+  padding: 3px;
+  background: red;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
+}
+
+.container
+{
+  text-align: center;
+  color: #ffffff;
+  /* background: #000000; */
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
+border: 1px solid #464646;
+}
+
+.col
+{
+  height: 150px;
+  border: 1px solid #ffffff;
+}
+
+.col-6
+{
+  text-align: center;
+  color: #eeeeee;
+}
+
+.col-6:nth-child(2)
+{
+  background: tomato;
+  color: rgb(63, 63, 63);
+}
+
+.col-3
+{
+  text-align: center;
+  color: #ffffff;
+}
+
+.col-3:nth-child(odd)
+{
+  background: tomato;
+  color:  rgb(63, 63, 63);
+}
+
+.col-6:nth-child(2)
+{
+  background: tomato;
+  color:  rgb(63, 63, 63);
+}
+
+.col-6:nth-child(4)
+{
+  background: tomato;
+  color:  rgb(63, 63, 63);
+}
+
+.container .row:nth-child(2)
+{
+  margin-top: 20px;
+  background: pink;
+}
