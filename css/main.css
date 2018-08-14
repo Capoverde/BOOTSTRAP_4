@@ -13,7 +13,7 @@
 
 p
 {
-  text-align: center;
+  text-align: justify;
   color: #eeeeee;
 }
 
@@ -43,6 +43,7 @@ box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
 
 .container
 {
+  margin-top: 10%;
   text-align: center;
   color: #ffffff;
   /* background: #000000; */
@@ -54,6 +55,12 @@ border: 1px solid #464646;
 }
 
 .col
+{
+  height: 150px;
+  border: 1px solid #ffffff;
+}
+
+.col-4
 {
   height: 150px;
   border: 1px solid #ffffff;
@@ -99,4 +106,9 @@ border: 1px solid #464646;
 {
   margin-top: 20px;
   background: pink;
+}
+
+.c1
+{
+  height: 40px;
 }
