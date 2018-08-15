@@ -2,7 +2,8 @@
 {
    padding: 0;
    margin: 0;
-   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+           box-sizing: border-box;
 }
  
  body
@@ -15,6 +16,9 @@ p
 {
   text-align: justify;
   color: #eeeeee;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 
 img
@@ -37,8 +41,7 @@ h2
   background: red;
   margin-bottom: 10px;
   -webkit-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
 }
 
 .container
@@ -49,9 +52,8 @@ box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
   /* background: #000000; */
   box-shadow: 3px 3px 3px 3px rgba(0,0,0,.5);
   -webkit-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
-box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
-border: 1px solid #464646;
+  box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
+  border: 1px solid #464646;
 }
 
 .col
